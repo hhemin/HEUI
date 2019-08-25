@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    {{msg}}
     <he-switch v-model="oppen"></he-switch>
   </div>
 </template>
@@ -9,7 +10,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: 'Welcome to heui',
       oppen:true,
     }
   }
